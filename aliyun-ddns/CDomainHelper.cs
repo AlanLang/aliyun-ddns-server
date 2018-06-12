@@ -10,6 +10,9 @@ using System.Text;
 
 namespace aliyun_ddns
 {
+    /// <summary>
+    /// 域名解析帮助类
+    /// </summary>
     public class CDomainHelper
     {
         DefaultAliyunClient aliyunClient;
@@ -31,6 +34,11 @@ namespace aliyun_ddns
             return updateRecord;
 
         }
+        /// <summary>
+        /// 更新域名解析值
+        /// </summary>
+        /// <param name="ipaddr">新的ip地址</param>
+        /// <param name="recordId">解析条目的主键</param>
         public void UpdateDomainRecords(string ipaddr,string recordId)
         {
             var changeValueRequest = new UpdateDomainRecordRequest()

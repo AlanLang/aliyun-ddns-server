@@ -2,10 +2,10 @@
 基于阿里云解析服务API的DDNS服务。将本机IP更新至指定域名的DNS A记录，可以达到花生壳动态域名解析的效果。
 
 ## 使用方法
-在阿里云申请一个域名，将此域名添加一个子域（如www），并设置为A类型记录，IP地址随便填写一个（程序会自动修改）
-到阿里云域名控制台申请AccessId Key和Secrect
-Clone本项目代码到本机，使用VS2013或更高版本编译 (或直接下载release)
-将生成的debug目录拷贝到服务器上，修改config.yml文件，然后用管理员权限运行install.bat
+1. 在阿里云申请一个域名，将此域名添加一个子域（如www），并设置为A类型记录，IP地址随便填写一个（程序会自动修改）
+2. 到阿里云域名控制台申请AccessId Key和Secrect
+3. Clone本项目代码到本机，使用VS2013或更高版本编译 (或直接下载release)
+4. 将生成的debug目录拷贝到服务器上，修改config.yml文件，然后用管理员权限运行install.bat
 
 ## 配置说明
 `config.yml`
