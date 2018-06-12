@@ -1,0 +1,8 @@
+# 检测外网ip地址的网站
+IPUrl: http://2018.ip138.com/ic.asp
+# 阿里云接口地址
+APIUrl: http://alidns.aliyuncs.com
+DomainName: 域名 例如 google.com
+FirstName: 前缀，例如www,空则为 @
+AccessKey: Access Id Key
+AccessKeySecret: Access Id Secret
