@@ -12,7 +12,7 @@
 
 ```
 # 检测外网ip地址的网站
-IPUrl: http://2018.ip138.com/ic.asp
+IPUrl: http://2019.ip138.com/ic.asp
 # 阿里云接口地址
 APIUrl: http://alidns.aliyuncs.com
 DomainName: 域名 例如 google.com
